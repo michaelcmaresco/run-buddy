@@ -46,24 +46,15 @@ header h1{
   section h3{
     display: inline;
     color: #39a6b2;
-    font-size: 30px;
+    font-size: 50px;
     margin: 0;
 }
- section div h3 p form h4{
-      color: #39a6b2;
-  }
 
-section div h3 p form h4 form{
-    color: #39a6b2:
-}
 section p{
     display: inline;
     color: #39a6b2;
     font-size:20px;
 }
-
-
-
   footer div {
       float: right;
       line-height: 1.5;
@@ -72,4 +63,56 @@ section p{
 
   footer a {
       color: #024e76;
+  }
+
+.hero {
+      background-image: url(/Users/michaelc.maresco/Desktop/projects/run-buddy/assets/images/hero-bg.jpeg);
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+  }
+  .hero-form {
+      margin: 5px 0 15px 0;
+      position: absolute;
+      background-color: #fce138;
+      padding: 20px;
+      width: 500px;
+      color: #024e76;
+      border-style: solid;
+      border-width: 3px;
+      border-color: #024e76;
+      bottom: 120px;
+      right: 140px;
+  }
+
+  .hero-form h3 {
+      font-size: 24px;
+      margin: 0;
+  }
+
+  .hero-form p {
+      margin: 5px 0 15px 0;
+  }
+
+  .form-input{
+      border: 1px solid #024e76;
+      display: block;
+      padding: 7px 15px;
+      font-size: 16px;
+      color: #024e76;
+      width: 100%;
+      margin-bottom: 15px;
+  }
+
+  .hero-form label {
+      margin: 0 5px;
+  }
+
+  .hero-form button {
+      color: #fce138;
+      background-color: #024e76;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
   }

@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    color: #39a6b2;
+    font-family: Arial
+}
+
 .intro {
     text-align: center;
 }
@@ -62,6 +67,8 @@
 .secondary-border {
     border-color: #39a6b2;
 }
+
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -101,26 +108,25 @@ header h1{
       padding: 40px 35px;
   }
 
-  section h3{
-    display: inline;
-    color: #39a6b2;
-    font-size: 50px;
-    margin: 0;
-}
+  footer h2 {
+      display: inline;
+      color: #024e76;
+      font-size: 30px;
+      margin: 0;
+  }
 
-section p{
-    display: inline;
-    color: #39a6b2;
-    font-size:20px;
-}
   footer div {
       float: right;
       line-height: 1.5;
       text-align: right;
   }
 
-  footer a {
+    footer a {
       color: #024e76;
+  }
+
+  section {
+      padding: 60px;
   }
 
 .hero {
@@ -130,6 +136,12 @@ section p{
       background-position: center;
       position: relative;
   }
+.hero-secondary {
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+}
   .hero-form {
       margin: 5px 0 15px 0;
       position: absolute;
@@ -253,7 +265,8 @@ section p{
       font-size: 32px;
   }
 
-  .contact-info p, .contact-info address {
+  .contact-info p,
+  .contact-info address {
       margin: 20px 0;
       line-heright: 1.5;
       font-size: 20px;
